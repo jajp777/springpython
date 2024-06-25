@@ -21,6 +21,6 @@ jobs:
       - name: Installing required libraries
         run: pip install -r requirements.txt
       - name: Running Py test
-        run: python -m pytest
+        run: pytest
 
 
