@@ -20,6 +20,6 @@ jobs:
           cache: 'pip'
       - name: Installing required libraries
         run: pip install -r requirements.txt
-      - name: Running Py Script
-        run: python app.py
+          # - name: Running Py Script
+          # run: python app.py
 
