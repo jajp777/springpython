@@ -9,7 +9,7 @@ on:
 
 jobs:
   pybuildjob1:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: pybuildcheckout
         uses: actions/checkout@v4
