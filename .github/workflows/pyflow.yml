@@ -9,6 +9,6 @@ jobs:
   pybuildjob1:
     runs-on: self-hosted
     steps:
-      - name: login as root user in ubuntu
+      - name: login as root user in ubunt1u
         run:  echo "hello world"
 
