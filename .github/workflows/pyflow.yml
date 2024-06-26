@@ -10,6 +10,7 @@ on:
 jobs:
   pybuildjob1:
     runs-on: self-hosted
+    container-user-id: 1000
     steps:
       - name: pybuildcheckout4
         uses: actions/checkout@v4
