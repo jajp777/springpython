@@ -42,5 +42,6 @@ RUN sudo chmod u+x /actions-runner/entrypoint.sh
 
 #working folder for the runner 
 RUN sudo mkdir /work 
+RUN sudo chown github:github -R /work
 
 ENTRYPOINT ["/actions-runner/entrypoint.sh"]
