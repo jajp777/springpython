@@ -11,7 +11,7 @@ jobs:
   pybuildjob1:
     runs-on: self-hosted
     steps:
-      - name: pybuildcheckout7
+      - name: pybuildcheckout78
         uses: actions/checkout@v4
       - name: pybuildSetupPython
         uses: actions/setup-python@v5
